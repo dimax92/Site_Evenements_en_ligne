@@ -1,0 +1,12 @@
+.divContenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #map {
+        width: 600px;
+        height: 400px;
+        position: relative;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+}

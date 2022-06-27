@@ -1,0 +1,42 @@
+.divFormulaire, .divModification {
+    form {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        input {
+            height: 20px;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 5px;
+            border: solid 0.1px #00000061;
+            margin: 10px 0px;
+        }
+        textarea {
+            height: 100px;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 5px;
+            border: solid 0.1px #00000061;
+            margin: 10px 0px;
+            resize: none;
+        }
+        button {
+            width: 80%;
+            border: none;
+            background: black;
+            color: white;
+            font-weight: bold;
+            font-size: 100%;
+            cursor: pointer;
+            max-width: 300px;
+            height: 30px;
+            border-radius: 10px;
+            margin: 10px 0px;
+        }
+    }
+}
